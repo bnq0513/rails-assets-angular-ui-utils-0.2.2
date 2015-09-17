@@ -463,7 +463,7 @@ angular.module('ui.mask', [])
     'maskDefinitions': {
       '9': /\d/,
       'A': /[a-zA-Zа-яА-Я]/,
-      '%': /[_a-zA-Z]/,
+      '%': /[\sa-zA-Z]/,
       '*': /[a-zA-Zа-яА-Я0-9]/
     },
     'clearOnBlur': true
